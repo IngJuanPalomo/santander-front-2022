@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,700&display=swap');
+
 body {
     background-color: #fffbf7;
 }
@@ -5,6 +7,8 @@ body {
 h1 {
     color: #025157;
     text-align: center;
+    font-family: 'Alegreya SC', serif;
+    font-size: 60px;
 }
 
 p {
@@ -24,6 +28,8 @@ button {
     margin-left: 20px;
     margin-right: 20px; */
     font-size: 0;
+    font-family: sans-serif;
+    line-height: 45px;
 }
 
 li {
@@ -51,6 +57,13 @@ li {
     text-align: left;
     color: #025157;
     font-weight: 500;
+    color: #025157;
+}
+
+.navbar li {
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .actions {
@@ -60,7 +73,24 @@ li {
     font-weight: 600;
 }
 
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;    
+}
+
 .main {
     margin-top: 140px;
     text-align: center;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
