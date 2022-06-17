@@ -148,3 +148,66 @@ li {
     width: 120px;
     margin-top: 10px;
 }
+
+.growing {
+    display: flex;
+    background-color: #a1d683;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 15%;
+    margin: 100px auto;
+}
+
+.ecommerce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.ecommerce h1 {
+    margin-bottom: 10px;
+}
+
+.ecommerce p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.ecommerce button {
+    align-self: start;
+}
+
+.ecommerce img {
+    width: 500px;
+}
+
+.caseStudy {
+    background-color: #fff;
+}
+
+.caseStudy h2 {
+    margin-left: 10%;
+}
+
+.caseStudy p {
+    font-size: 20px;
+    color: #343434;
+    line-height: 1.5;
+    margin: 20px 10%;
+}
+
+.caseStudy form p {
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 16px;
+    margin: 20px 10%;
+
+}
+
+.caseStudy button {
+    width: 80%;
+    margin: 10px 10%;
+}
