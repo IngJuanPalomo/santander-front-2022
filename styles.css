@@ -227,3 +227,8 @@ li {
     width: 80%;
     margin: 10px 10%;
 }
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
