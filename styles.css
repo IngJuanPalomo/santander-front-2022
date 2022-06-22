@@ -230,5 +230,7 @@ li {
 
 .features {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    height: 660px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
