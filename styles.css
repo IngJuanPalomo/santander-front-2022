@@ -229,7 +229,56 @@ li {
 }
 
 .features {
+    background-color: #025157;
     display: grid;
     height: 660px;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    padding: 5% 10%; 
+}
+
+.feature {
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;  
+}
+
+.feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+}
+
+.feature-content h3 {
+    font-size: x-large;
+}
+
+.feature-content p {
+    font-size: 16px;
+}
+
+.feature-content img {
+    width: 50px;
+}
+
+.feature-content a {
+    color: #67b54b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.feature-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+}
+
+.feature-image figure,
+.feature-image img {
+    margin-top: 0;
+    height: 100%;
 }
