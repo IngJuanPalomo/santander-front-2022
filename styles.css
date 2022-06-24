@@ -139,6 +139,13 @@ li {
     align-items: center;
 }
 
+iframe {
+    display: flex;
+    margin: auto;
+    width: 560px;
+    height: 315px;
+  }
+
 .explanatory-video {
     display: flex;
     flex-direction: column;
@@ -285,10 +292,10 @@ li {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px){
-    .navbar,
+    /*.navbar,
     .actions {
         display: none;
-    }
+    }*/
 
     h1 {
         font-size: 30px;
@@ -333,16 +340,26 @@ li {
         line-height: 1.2;
     }
 
+    iframe{
+        width: 100%;
+        height: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+
     .features {
         grid-template: repeat(4, 1fr) / 1fr;
         padding-left: 0;
         padding-right: 0;
+        height: 100%;
     }
 
     .feature-image {
         display: none;
     }
     
+
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
