@@ -289,8 +289,13 @@ li {
     .actions {
         display: none;
     }
+
     h1 {
         font-size: 30px;
+    }
+
+    .main {
+        margin-top: 120px;
     }
 }
 
