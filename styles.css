@@ -288,6 +288,45 @@ iframe {
     height: 100%;
 }
 
+.HowWorks {
+    background-color: #fffbf7;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.HowWorks-Header h2 {
+    font-size: 50px;
+    color: #025157;
+    padding-bottom: 5px;
+}
+
+.HowWorks-Cards {
+    margin-top: 30px;
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr);
+    column-gap: 100px;
+    text-align: left;  
+}
+
+.HowWorks-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    background-color: #fff;  
+    padding: 5%;
+}
+
+.HowWorks-content figure {
+    height: 130px;
+
+}
+
+.HowWorks-content figure > img {
+    width: 100%;
+    vertical-align: middle;
+}
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px){
     /*.navbar,
