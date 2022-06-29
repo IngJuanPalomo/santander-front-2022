@@ -316,6 +316,8 @@ iframe {
     border-radius: 5px;
     background-color: #fff;  
     padding: 5%;
+    display: grid;
+    align-content: space-around;
 }
 
 .HowWorks-content figure {
