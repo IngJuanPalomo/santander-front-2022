@@ -239,6 +239,7 @@ iframe {
     height: 660px;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     padding: 5% 10%; 
+    margin-top: 5%;
 }
 
 .feature {
